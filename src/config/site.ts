@@ -74,6 +74,54 @@ export const siteConfig = {
     },
   ],
 
+  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
+  relatedTools: [
+    {
+      name: "Favicon Generator",
+      url: "https://favicon-generator.jagodana.com",
+      icon: "🎨",
+      description: "Generate all favicon sizes + manifest from any image.",
+    },
+    {
+      name: "Sitemap Checker",
+      url: "https://sitemap-checker.jagodana.com",
+      icon: "🔍",
+      description: "Discover and validate sitemaps on any website.",
+    },
+    {
+      name: "Regex Playground",
+      url: "https://regex-playground.jagodana.com",
+      icon: "🧪",
+      description: "Build, test & debug regular expressions in real-time.",
+    },
+    {
+      name: "Screenshot Beautifier",
+      url: "https://screenshot-beautifier.jagodana.com",
+      icon: "📸",
+      description: "Transform screenshots into beautiful images.",
+    },
+    {
+      name: "Color Palette Explorer",
+      url: "https://color-palette-explorer.jagodana.com",
+      icon: "🎭",
+      description: "Extract color palettes from any image.",
+    },
+    {
+      name: "Logo Maker",
+      url: "https://logo-maker.jagodana.com",
+      icon: "✏️",
+      description: "Create a professional logo in 60 seconds.",
+    },
+  ],
+
+  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
+  howToSteps: [
+    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
+    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
+    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+  ],
+  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+
   // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
