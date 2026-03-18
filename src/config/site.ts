@@ -1,174 +1,148 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Number Base Converter",
+  title: "Number Base Converter — Convert Between Binary, Octal, Decimal, Hex & More",
+  description: "Instantly convert numbers between binary, octal, decimal, hexadecimal, and any custom base (2–36). Free, fast, no signup required.",
+  url: "https://number-base-converter.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Hash",
+  brandAccentColor: "#8b5cf6",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "number base converter",
+    "binary to decimal",
+    "hex converter",
+    "octal converter",
+    "base converter online",
+    "radix converter",
+    "binary hex decimal",
+    "number system converter",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#7c3aed",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/number-base-converter",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about: "A free, instant number base converter for developers. Convert between binary, octal, decimal, hexadecimal, and any base from 2 to 36 — right in your browser.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Convert between any bases (2–36)",
+      "Real-time conversion as you type",
+      "Support for large numbers via BigInt",
+      "One-click copy to clipboard",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Developer Tool",
+    titleLine1: "Convert Numbers Between",
+    titleGradient: "Any Base Instantly",
+    subtitle: "Binary, octal, decimal, hexadecimal, or any custom base from 2 to 36. Type a number and see all conversions in real time — no signup, no API, 100% in-browser.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🔢",
+      title: "All Standard Bases",
+      description: "Binary (2), Octal (8), Decimal (10), and Hexadecimal (16) — the bases every developer needs.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚡",
+      title: "Real-Time Conversion",
+      description: "See results instantly as you type. No button clicks, no waiting — just fast, live conversion.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🎯",
+      title: "Custom Base Support",
+      description: "Need Base-32 or Base-7? Enter any radix from 2 to 36 and convert freely between them.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Hash Generator",
+      url: "https://hash-generator.tools.jagodana.com",
+      icon: "🔐",
+      description: "Generate MD5, SHA-1, SHA-256 hashes instantly.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "UUID Generator",
+      url: "https://uuid-generator.tools.jagodana.com",
+      icon: "🆔",
+      description: "Generate UUIDs v4 with one click.",
+    },
+    {
+      name: "JSON Formatter",
+      url: "https://json-formatter.tools.jagodana.com",
+      icon: "📋",
+      description: "Format and validate JSON data instantly.",
     },
     {
       name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
+      url: "https://regex-playground.tools.jagodana.com",
       icon: "🧪",
       description: "Build, test & debug regular expressions in real-time.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "Timestamp Converter",
+      url: "https://timestamp-converter.tools.jagodana.com",
+      icon: "⏰",
+      description: "Convert between Unix timestamps and human-readable dates.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "URL Encoder/Decoder",
+      url: "https://url-encoder-decoder.tools.jagodana.com",
+      icon: "🔗",
+      description: "Encode and decode URLs with ease.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    { name: "Enter a number", text: "Type your number in any of the input fields — binary, octal, decimal, hex, or a custom base.", url: "" },
+    { name: "See instant conversions", text: "All other base fields update in real time as you type. No button clicks needed.", url: "" },
+    { name: "Copy the result", text: "Click the copy icon next to any field to copy the converted value to your clipboard.", url: "" },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What number bases are supported?",
+      answer: "This tool supports all bases from 2 to 36. The most common ones — binary (base 2), octal (base 8), decimal (base 10), and hexadecimal (base 16) — have dedicated fields. You can also add a custom base field for any radix between 2 and 36.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Can it handle very large numbers?",
+      answer: "Yes! The converter uses JavaScript BigInt under the hood, so it can handle arbitrarily large integers without precision loss.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Is my data sent to any server?",
+      answer: "No. All conversions happen entirely in your browser. No data is sent anywhere — your numbers stay on your machine.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What characters are valid for each base?",
+      answer: "For bases 2–10, you can use digits 0 through (base-1). For bases 11–36, letters A–Z (case-insensitive) extend the digit set. For example, hexadecimal uses 0–9 and A–F.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Number Base Converter — Binary, Octal, Decimal, Hex & Custom Bases",
+      description: "Instantly convert numbers between binary, octal, decimal, hexadecimal, and any custom base (2–36). Free, fast, no signup required.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
